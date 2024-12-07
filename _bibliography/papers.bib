@@ -2,8 +2,8 @@
 ---
 
 @article{chinchure2025tibet,
-  title={Tibet: Identifying and evaluating biases in text-to-image generative models},
-  author={Chinchure, Aditya and Shukla, Pushkar and Bhatt, Gaurav and Salij, Kiri and Hosanagar, Kartik and Sigal, Leonid and Turk, Matthew},
+  title={TIBET: Identifying and evaluating biases in text-to-image generative models},
+  author={Chinchure*, Aditya and Shukla*, Pushkar and Bhatt, Gaurav and Salij, Kiri and Hosanagar, Kartik and Sigal, Leonid and Turk, Matthew},
   booktitle={European Conference on Computer Vision},
   pages={429--446},
   year={2024},
@@ -11,4 +11,28 @@
   abbr={ECCV2024},
   abstract={Text-to-Image (TTI) generative models have shown great progress in the past few years in terms of their ability to generate complex and high-quality imagery. At the same time, these models have been shown to suffer from harmful biases, including exaggerated societal biases (e.g., gender, ethnicity), as well as incidental correlations that limit such a model's ability to generate more diverse imagery. In this paper, we propose a general approach to study and quantify a broad spectrum of biases, for any TTI model and for any prompt, using counterfactual reasoning. Unlike other works that evaluate generated images on a predefined set of bias axes, our approach automatically identifies potential biases that might be relevant to the given prompt, and measures those biases. In addition, we complement quantitative scores with post-hoc explanations in terms of semantic concepts in the images generated. We show that our method is uniquely capable of explaining complex multi-dimensional biases through semantic concepts, as well as the intersectionality between different biases for any given prompt. We perform extensive user studies to illustrate that the results of our method and analysis are consistent with human judgements.},
   website={https://tibet-ai.github.io}
+}
+
+@article{shukla2024utilizingadversarialexamplesbias,
+  title={Utilizing Adversarial Examples for Bias Mitigation and Accuracy Enhancement}, 
+  author={Pushkar Shukla and Dhruv Srikanth and Lee Cohen and Matthew Turk},
+  year={2024},
+  eprint={2404.11819},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2404.11819}, 
+  abbr={Preprint},
+  abstract={We propose a novel approach to mitigate biases in computer vision models by utilizing counterfactual generation and fine-tuning. While counterfactuals have been used to analyze and address biases in DNN models, the counterfactuals themselves are often generated from biased generative models, which can introduce additional biases or spurious correlations. To address this issue, we propose using adversarial images, that is images that deceive a deep neural network but not humans, as counterfactuals for fair model training. Our approach leverages a curriculum learning framework combined with a fine-grained adversarial loss to fine-tune the model using adversarial examples. By incorporating adversarial images into the training data, we aim to prevent biases from propagating through the pipeline. We validate our approach through both qualitative and quantitative assessments, demonstrating improved bias mitigation and accuracy compared to existing methods. Qualitatively, our results indicate that post-training, the decisions made by the model are less dependent on the sensitive attribute and our model better disentangles the relationship between sensitive attributes and classification variables.},
+}
+
+@InProceedings{Shukla_2023_CVPR,
+    author    = {Shukla, Pushkar and Bharati, Sushil and Turk, Matthew},
+    title     = {CAVLI - Using Image Associations To Produce Local Concept-Based Explanations},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {3750-3755},
+    url={https://openaccess.thecvf.com/content/CVPR2023W/XAI4CV/html/Shukla_CAVLI_-_Using_Image_Associations_To_Produce_Local_Concept-Based_Explanations_CVPRW_2023_paper.html}, 
+    abbr={CVPR2023 W},
+    abstract={While explainability is becoming increasingly crucial in computer vision and machine learning, producing explanations that are able to link decisions made by deep neural networks to concepts that are easily understood by humans still remains a challenge. To address this challenge, we propose a framework that produces local concept based explanations for the classification decisions made by a deep neural network. Our framework is based on the intuition that if there is a high overlap between the regions of the image that the model associates the most with the concept and the regions of the image that are useful for decision-making then the decision is highly dependent on the concept. Our proposed CAVLI framework combines a global approach (TCAV) with a local approach (LIME). To test the effectiveness of our approach, we conducted experiments on both the ImageNet and CelebA datasets. These experiments demonstrated that our framework can produce explanations that are easy for humans to understand. By providing local concept-based explanations, our framework has the potential to improve the transparency and interpretability of deep neural networks in a variety of applications.},
 }

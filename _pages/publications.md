@@ -12,10 +12,6 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-![A cloud tag with my research topics](/assets/img/publications.png)
-
-_A tag cloud generated from my research papers._
-
 {% include bib_search.liquid %}
 
 <div class="publications">
