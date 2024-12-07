@@ -20,7 +20,3 @@ I am a PhD student at the [Toyota Technolgical Institute at Chicago](https:https
 Previously, I completed my Masters in Computer Science from [University of California, Santa Barbara](https://cs.ucsb.edu/) where I closely worked with [Dr. William Wang](https://sites.cs.ucsb.edu/~william/) on Goal-Oriented Visual Dialogue.
         
 You can find my curriculum vitae [here](assets/pdf/resume.pdf).
-
-**News:**
-
-- 
