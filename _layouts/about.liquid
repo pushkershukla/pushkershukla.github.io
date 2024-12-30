@@ -68,9 +68,17 @@ layout: default
     <!-- Selected patents -->
     {% if page.selected_patents %}
       <h2>
-        <a href="{{ '/patents/' | relative_url }}" style="color: inherit">patents</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">patents</a>
       </h2>
       {% include selected_patents.liquid %}
+    {% endif %}
+
+    <!-- Selected preprints -->
+    {% if page.selected_preprints %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">preprints</a>
+      </h2>
+      {% include selected_preprints.liquid %}
     {% endif %}
 
     <!-- Social -->
