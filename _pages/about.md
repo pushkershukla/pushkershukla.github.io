@@ -19,6 +19,6 @@ I am a PhD student at the [Toyota Technolgical Institute at Chicago](https:https
     
 Previously, I completed my Masters in Computer Science from [University of California, Santa Barbara](https://cs.ucsb.edu/) where I closely worked with [Dr. William Wang](https://sites.cs.ucsb.edu/~william/) on Goal-Oriented Visual Dialogue. As an early reseacher I spent seven transformative years in the charming town of Roorkee, in Northern India. Those years were incredibly formative, leaving a lasting impact on my personal growth and shaping the person I am today. 
 
-When I’m not diving into research, you’ll probably find me trying out new recipes in the kitchen— trying experimenting with different flavours or enjoying a run/walk/hike outdoors. 
+When I’m not diving into research, you’ll probably find me trying out new recipes in the kitchen— experimenting with different flavours or enjoying a run/walk/hike outdoors. 
         
 You can find my curriculum vitae [here](assets/pdf/resume.pdf). 
