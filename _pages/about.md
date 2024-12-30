@@ -21,4 +21,4 @@ Previously, I completed my Masters in Computer Science from [University of Calif
 
 When I’m not diving into research, you’ll probably find me trying out new recipes in the kitchen—I love experimenting with flavors and cooking is my favorite way to relax. I’m also big on running; it’s my go-to for clearing my mind and staying active. 
         
-You can find my curriculum vitae [here](assets/pdf/resume.pdf).
+You can find my curriculum vitae [here](assets/pdf/resume.pdf). 
