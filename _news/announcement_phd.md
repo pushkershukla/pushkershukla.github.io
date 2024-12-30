@@ -2,7 +2,7 @@
 layout: posts
 date: 2024-12-30
 ---
-
+- **2024-09-30**: I was recently featured on the TTIC website! Find the blog post [here](https://www.ttic.edu/highlights/shukla/).
 - **2024-07-16**: Our paper [TIBET: Identifying and Evaluating Biases in T2I models](https://tibet-ai.github.io/) is accepted at ECCV 2024!
 
 - **2024-06-27**: Our latest manuscript on [Utilizing Adversarial Examples for Bias Mitigation and Accuracy Enhancement](https://arxiv.org/pdf/2404.11819) is out.
